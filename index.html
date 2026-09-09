@@ -1,0 +1,160 @@
+```html
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Web Site</title>
+
+    <style>
+        /* ページ全体 */
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+
+            /* 固定フッターに本文が隠れないようにする */
+            padding-bottom: 120px;
+        }
+
+        /* ヘッダー */
+        header {
+            background-color: #440000;
+            color: white;
+            text-align: center;
+            padding: 25px 10px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 28px;
+        }
+
+        /* メイン */
+        main {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+
+            /* mainの文字色 */
+            color: #008080;
+        }
+
+        /* 各セクション */
+        section {
+            background-color: white;
+            padding: 30px;
+            margin-bottom: 25px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* 見出し */
+        section h2 {
+            margin-top: 0;
+            color: #008080;
+            border-left: 5px solid #007bff;
+            padding-left: 10px;
+        }
+
+        /* 本文 */
+        section p {
+            line-height: 1.8;
+        }
+
+        /* フッター */
+        footer {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+
+            /* footerの背景色 */
+            background-color: #800080;
+            color: white;
+            text-align: center;
+            padding: 15px 10px;
+
+            z-index: 1000;
+        }
+
+        footer p {
+            margin: 5px 0;
+        }
+
+        /* SNSリンク */
+        footer a {
+            color: #66b3ff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- ヘッダー -->
+    <header>
+        <h1>My Web Site</h1>
+    </header>
+
+    <!-- メイン -->
+    <main>
+
+        <!-- 見出し1 -->
+        <section>
+            <h2>About Me</h2>
+
+            <p>
+                HTMLとCSSを使って、私の情報についてシンプルで見やすいページを作成しています。
+            </p>
+        </section>
+
+        <!-- 見出し2 -->
+        <section>
+            <h2>My Hobby</h2>
+
+            <p>
+                私の趣味は、ゲームやピアノ、バッティングセンターです。
+            </p>
+        </section>
+
+    </main>
+
+    <!-- フッター -->
+    <footer>
+
+        <p>
+            Contact：example@example.com
+        </p>
+
+        <p>
+            <a href="https://twitter.com/" target="_blank">
+                X（Twitter）
+            </a>
+
+            <a href="https://www.instagram.com/" target="_blank">
+                Instagram
+            </a>
+
+            <a href="https://www.facebook.com/" target="_blank">
+                Facebook
+            </a>
+        </p>
+
+    </footer>
+
+</body>
+</html>
+```
